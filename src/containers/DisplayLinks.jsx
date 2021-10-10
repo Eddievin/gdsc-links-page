@@ -17,7 +17,7 @@ function DisplayLinks() {
                 href={link.href}
                 target="_blank"
                 rel="noreferrer"
-                className={`text-decoration-none btn btn-outline-${link.color} btn-block px-1 py-3 text-center`}
+                className={`text-decoration-none btn btn-outline-${link.color} btn-block px-1 py-3 text-center text-nunito-regular`}
                 style={{
                   width: "100%",
                 }}

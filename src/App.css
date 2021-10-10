@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Quicksand:wght@600&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -16,4 +18,13 @@
 /* Scales upto 1.2X on hover link */
 .link-hover:hover {
   transform: scale(1.2, 1.2);
+}
+
+/* For custom fonts */
+.text-nunito-regular {
+  font-family: "Nunito", sans-serif;
+}
+
+.text-quicksand-medium {
+  font-family: "Quicksand", sans-serif;
 }
